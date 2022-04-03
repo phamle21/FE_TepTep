@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tep Tep</title>
+    <!-- Bootstap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Jquery 3.6.0 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="build/style.css">
+
+</head>
+
+<body>
+    <main class="bg-main min-100vh">
+        <!-- Header -->
+        <section id="header">
+            <nav class="navbar navbar-expand-lg navbar-light p-0 bg-brown">
+                <div class="container-fluid fw-bold p-0" style="height: 80px;">
+                    <a class="navbar-brand m-0 p-0 h-auto" style="width: 100px" href="#">
+                        <img src="img/Logo.png" width="100" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="height: 80px;">
+                            <li class="nav-item border border-dark d-flex align-items-center justify-content-center"
+                                style="width: 100px">
+                                <a class="nav-link text-light active" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item border border-dark d-flex align-items-center justify-content-center"
+                                style="width: 100px">
+                                <a class="nav-link text-light" href="#">Login</a>
+                            </li>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- /Header -->
+    
+        <!-- Page Content -->
+        <div class="container-fluid mb-3 pb-3">
+            <div class="row justify-content-center " >
+                <!-- Left page -->
+                <div class="col-md-3 border border-dark bg-light mt-3 rounded" style="min-height: 80vh;">
+                    <!-- search -->
+                    <div class="row mt-3">
+                        <form action="" id="search">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" id="keyword" name="keyword">
+                                <div class="input-group-append ">
+                                    <span class="input-group-text btn btn-light border rounded"><i
+                                            class="fa fa-search"></i></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- keyboard -->
+                    <div class="row">
+                        <div class="col">
+                            <ul class="d-flex justify-content-start flex-wrap p-0">
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">A</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">B</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">C</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">D</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">E</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">F</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">G</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">H</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">I</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">j</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">K</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">L</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">M</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">N</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">O</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">P</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">Q</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">R</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">S</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">T</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">U</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">V</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">W</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">X</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">Y</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">Z</li>
+                                <li class="btn_key border border-warning bg-brown list-unstyled fs-4 m-2 rounded btn text-light text-center fw-bold p-0"
+                                    style="width: 40px; height: 40px;">...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right page -->
+                <div class="col-md-8 border border-dark mt-3 ms-3 bg-light rounded" style="min-height: 80vh;">
+                    <div class="row text-center bg-pink align-items-center border-bottom border-dark" >
+                        <p class="fs-2 fw-bold my-0 py-1">Some typical species</p>
+                    </div>
+                    <div class="row justify-content-start flex-wrap">
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col p-3 card_animal" style="max-width: 200px">
+                            <div class="card align-items-center bg-pink border border-dark rounded w-fitcontent">
+                                <img src="img/Logo.png" class="card-img-top py-2" style="width: 150px !important;" alt="">
+                                <div class="card-body text-center py-0">
+                                    <p class="card-text name_animal">Python molurus (Linnaeus, 1758)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Page Content -->
+    </main>
+
+
+    <!-- Javascript -->
+    <script src="build/custom.js"></script>
+</body>
+
+</html>
